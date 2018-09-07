@@ -1,0 +1,206 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "yog guru",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "ListAsana",
+                    "slots": [],
+                    "samples": [
+                        "Which asana do you know",
+                        "What are asanas",
+                        "list asanas"
+                    ]
+                },
+                {
+                    "name": "AsanaMeaning",
+                    "slots": [
+                        {
+                            "name": "Asana",
+                            "type": "Asana"
+                        }
+                    ],
+                    "samples": [
+                        "What is the meaning of {Asana}",
+                        "What does {Asana} mean",
+                        "meaning  of {Asana}",
+                        "about {Asana}",
+                        "{Asana}",
+                        "What is {Asana}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AsanaDetail",
+                    "slots": [
+                        {
+                            "name": "Asana",
+                            "type": "Asana"
+                        }
+                    ],
+                    "samples": [
+                        "Give me details of  {Asana}",
+                        "Give me its details",
+                        "What are its details",
+                        "What are the details of {Asana}"
+                    ]
+                },
+                {
+                    "name": "ThanksIntent",
+                    "slots": [],
+                    "samples": [
+                        "ok thanks",
+                        "Good bye",
+                        "thank you for the information",
+                        "Thank you",
+                        "Thanks"
+                    ]
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": [
+                        "again",
+                        "repeat"
+                    ]
+                },
+                {
+                    "name": "AsanaSteps",
+                    "slots": [
+                        {
+                            "name": "Asana",
+                            "type": "Asana"
+                        }
+                    ],
+                    "samples": [
+                        "Please tell me its steps",
+                        "What are its steps",
+                        "What are the steps involved in {Asana}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": [
+                        "next",
+                        "next step"
+                    ]
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": [
+                        "previous step",
+                        "previous"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Asana",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Chakra asana",
+                                "synonyms": [
+                                    "The Wheel Pose",
+                                    "Wheel Pose"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bala asana",
+                                "synonyms": [
+                                    "Child Pose",
+                                    "The Child Pose"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Baddhakona asana",
+                                "synonyms": [
+                                    "Restrained Angle Pose",
+                                    "The Restrained Angle Pose"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ardha Chandra asana",
+                                "synonyms": [
+                                    "Half moon Pose",
+                                    "The Half  moon Pose"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ardha Matsyendra asana",
+                                "synonyms": [
+                                    "Half Spinal Twist Pose",
+                                    "The Half Spinal Twist Pose"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Surya Namaskar",
+                                "synonyms": [
+                                    "Sun salutation",
+                                    "The Sun salutation"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Akarna Dhanura asana",
+                                "synonyms": [
+                                    "akarna asana",
+                                    "Dhanura asana",
+                                    "Shooting bow\t",
+                                    "Shooting bow Pose\t",
+                                    "The Shooting bow Pose\t"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Anjanaya asana",
+                                "synonyms": [
+                                    "Salutation Pose",
+                                    "The Salutation Pose"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
